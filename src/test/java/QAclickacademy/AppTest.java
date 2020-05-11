@@ -19,6 +19,12 @@ public class AppTest
     {
         super( testName );
     }
+    
+    public AppTest()
+    {
+    	
+    	System.out.println("How are you");
+    }
 
     /**
      * @return the suite of tests being tested
